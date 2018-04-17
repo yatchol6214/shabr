@@ -1,97 +1,166 @@
+body {
+
+    background-color: #30ffc0;
+}
+
 @media (max-width: 768px) {}
 
-        /* medium+ */
+/* medium+ */
 
-        @media(min-width:992px) {
-            h1 {
-                font-size: 260px;
-            }
-            h2 {
-                font-size: 80px;
-            }
-        }
+@media(min-width:992px) {
+    h1 {
+        font-size: 260px;
+    }
+    h2 {
+        font-size: 80px;
+    }
+}
 
-        /* large+ */
+/* large+ */
 
-        @media(min-width:1200px) {
-            h1 {
-                font-size: 300px;
-            }
-            h2 {
-                font-size: 100px;
-            }
-        }
+@media(min-width:1200px) {
+    h1 {
+        font-size: 300px;
+    }
+    h2 {
+        font-size: 100px;
+    }
+}
 
-        .jumbotron,
-        .row {
-            margin: 30px 0;
-        }
+.jumbotron,
+.row {
+    margin: 30px 0;
+}
 
-        #home {
-            display: table;
-            width: 100%;
-            background: linear-gradient( rgba(0, 200, 300, 0.75), rgba(100, 0, 300, 0.75)), url('img/balloon-4.jpg') no-repeat center;
-            background-size: cover;
-            background-repeat: no-repeat;
-            color: #000000;
-        }
+#home {
+    display: table;
+    width: 100%;
+    background: linear-gradient( rgba(0, 200, 300, 0.75), rgba(100, 0, 300, 0.75)), url('img/balloon-4.jpg') no-repeat center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #000000;
+}
 
-        #info {
-            display: table;
-            width: 100%;
-            background: linear-gradient( rgba(0, 200, 300, 0.75), rgba(100, 0, 300, 0.75)), url('img/balloon-5.jpg') no-repeat center;
-            background-size: cover;
-            color: #000000;
-        }
+#info {
+    display: table;
+    width: 100%;
+    background: linear-gradient( rgba(0, 200, 300, 0.75), rgba(100, 0, 300, 0.75)), url('img/balloon-5.jpg') no-repeat center;
+    background-size: cover;
+    color: #000000;
+}
+
+#gallery>div>div {
+    /*background: linear-gradient( rgba(0, 200, 300, 0.75), rgba(100, 0, 300, 0.75))*/
+}
+
+
+#contact {
+    display: table;
+    width: 100%;
+    background: linear-gradient( rgba(48, 255, 251,0.75), rgba(48, 255, 251,0.75)), url('img/hot-air-balloon-clipart.png') no-repeat center;
+    background-size: cover;
+    color: #000000;
+
+}
+
+blockquote {
+    background-color: #70A7FE;
+color:#eeff00;
+
+
+}
+
+.opposite_color {
+    background-color: #FB5555;
+
+}
+
+blockquote footer {
+    color: #000000;
+}
+
+
+
 /*funscreen{*/
+
 /*  background-size: cover;*/
-  
+
 /*}*/
 
 /*.carousel-item {*/
+
 /*  height: 100vh;*/
+
 /*  min-height: 300px;*/
+
 /*  background: no-repeat center center scroll;*/
+
 /*  -webkit-background-size: cover;*/
+
 /*  -moz-background-size: cover;*/
+
 /*  -o-background-size: cover;*/
+
 /*  background-size: cover;*/
-/*}*/
-/*myCarousel{*/
-/*  width:100%;*/
-/*}*/
-/*html,body{*/
-/*  height:100%;*/
-  
-/*}*/
-/*.carousel,.item,.active{*/
-/*  height:100%;*/
-  
-/*}*/
-/*.carousel-inner{*/
-/*  height:100%;*/
-  
-/*}*/
-/*.carousel,*/
-/*.item,*/
-/*.active {*/
-/*    height: 100%;*/
+
 /*}*/
 
+/*myCarousel{*/
+
+/*  width:100%;*/
+
+/*}*/
+
+/*html,body{*/
+
+/*  height:100%;*/
+
+/*}*/
+
+/*.carousel,.item,.active{*/
+
+/*  height:100%;*/
+
+/*}*/
+
+/*.carousel-inner{*/
+
+/*  height:100%;*/
+
+/*}*/
+
+/*.carousel,*/
+
+/*.item,*/
+
+/*.active {*/
+
+/*    height: 100%;*/
+
+/*}*/
 
 /*.carousel-inner {*/
+
 /*    height: 100%;*/
+
 /*}*/
 
 /* Background images are set within the HTML using inline CSS, not here */
 
 /*.fullscreen {*/
-/*    width: 100%;*/
-/*    height: 100%;*/
-/*    background-position: center;*/
-/*    -webkit-background-size: cover;*/
-/*    -moz-background-size: cover;*/
-/*    background-size: cover;*/
-/*    -o-background-size: cover;*/
-/*}*/
 
+/*    width: 100%;*/
+
+/*    height: 100%;*/
+
+/*    background-position: center;*/
+
+/*    -webkit-background-size: cover;*/
+
+/*    -moz-background-size: cover;*/
+
+/*    background-size: cover;*/
+
+/*    -o-background-size: cover;*/
+
+/*}*/

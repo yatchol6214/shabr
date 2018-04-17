@@ -1,5 +1,48 @@
+@media (max-width: 768px) {}
 
+        /* medium+ */
 
+        @media(min-width:992px) {
+            h1 {
+                font-size: 260px;
+            }
+            h2 {
+                font-size: 80px;
+            }
+        }
+
+        /* large+ */
+
+        @media(min-width:1200px) {
+            h1 {
+                font-size: 300px;
+            }
+            h2 {
+                font-size: 100px;
+            }
+        }
+
+        .jumbotron,
+        .row {
+            margin: 30px 0;
+        }
+
+        #home {
+            display: table;
+            width: 100%;
+            background: linear-gradient( rgba(0, 200, 300, 0.75), rgba(100, 0, 300, 0.75)), url('img/balloon-4.jpg') no-repeat center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            color: #000000;
+        }
+
+        #info {
+            display: table;
+            width: 100%;
+            background: linear-gradient( rgba(0, 200, 300, 0.75), rgba(100, 0, 300, 0.75)), url('img/balloon-5.jpg') no-repeat center;
+            background-size: cover;
+            color: #000000;
+        }
 /*funscreen{*/
 /*  background-size: cover;*/
   

@@ -40,7 +40,7 @@
 
 
                 <ul class="nav navbar-nav navbar-left">
-                    <li><a href="#home">Home <span class="sr-only">(current)</span></a></li>
+                    <li><a href="#home" id="nav_color">Home <span class="sr-only">(current)</span></a></li>
                     <li><a href="#info">Info</a></li>
                     <li><a href="#gallery">Gallery</a></li>
                     <li><a href="#testimonial">Testimonial</a></li>
@@ -72,7 +72,7 @@
                 <div class="carousel-inner">
                     <div class="item active">
                         <img class=fullscreen src="img/balloon-1.jpg" style="width:100%;">
-                        <div class="carousel-caption">
+                        <div class="carousel-caption text-center vert-center">
                             <h2>Skydance Hot Air Balloon Rides</h2>
                             <p>Ride with the wind. Dance with the sky</p>
                         </div>
@@ -139,84 +139,116 @@
         </div>
     </div>
     <div class="container" id="home">
-        <div class="row">
-            <div class="col-sm-4">
-                <h2>Fun for everyone</h2>
-                <p>Come make a new memory with us. There's nothing else like it. </p>
-                <p>Fun for both adults and kids. All are welcome!</p>
-                <p>Afraid of heights? You won't be after you slow-dance with the sky.</p>
-            </div>
+        
+            
+                <div class="col-sm-3">
+                    <h2>Fun for everyone <i class="glyphicon glyphicon-thumbs-up"></i></h2>
+                </div>
+                <div class="col-sm-3">
+                    <p>Come make a new memory with us. There's nothing else like it. </p>
+                </div>
+                <div class="col-sm-3">
+                    <p>Fun for both adults and kids. All are welcome! <i class="glyphicon glyphicon-sunglasses"></i></p>
+                </div>
+                <div class="col-sm-3">
+                    <p>Afraid of heights? You won't be after you slow-dance with the sky.</p>
+                </div>
+
+            
 
 
-        </div>
+        
     </div>
 
     <div class="container-fluid section text-center " id="info">
-        <div class="row">
-            <div class="col-sm-4">
-                <h1>Info</h1>
-                <div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-0">
+        
+            <h2 id="info_header">Info <i class="glyphicon glyphicon-pencil"></i></h2>
 
-                    <span class="glyphicon glyphicon-time" aria-hidden="true"></span>Time Due to climatic conditions, we can safely fly only in the early morning hours <span class="glyphicon glyphicon-sunglasses" aria-hidden="true"></span>with our primary
-                    season and most beautiful months being May through November. Since our launch times vary through the seasons, we ask all our guests to call ahead for the exact meeting time.
-                </div>Weather High winds and/or inclement weather prevent us from flying. We ask all our guests to contact us in the early afternoon prior to their scheduled flight between 12:00 noon and 2:00 p.m. to verify that the forecasted weather
-                conditions will allow their balloon flight. Flight Our actual flight time is approximately one to one and a half hours averaging closer to one and a half hours and we suggest to allow three to three and a half hours for the entire adventure.
-                Participation We encourage all of our guests, if they wish, to participate in both the inflation and deflation of the balloon. We have found it adds greatly to the fun of the entire ballooning experience.
+            <div class="col-sm-3 jumbotron" id="time">
+                <h2><span class="glyphicon glyphicon-time" aria-hidden="true"></span> Time <span class="glyphicon glyphicon-time" aria-hidden="true"></span></h2> Due to climatic conditions, we can safely fly only in the early morning hours <span class="glyphicon glyphicon-sunglasses" aria-hidden="true"></span>with our primary
+                season and most beautiful months being May through November. Since our launch times vary through the seasons, we ask all our guests to <i class="glyphicon glyphicon-earphone"></i>call ahead for the exact meeting time.
             </div>
-        </div>
+            <div class="col-sm-3 jumbotron" id="weather">
+                <h2><span class="glyphicon glyphicon-sunglasses" aria-hidden="true"></span> Weather <span class="glyphicon glyphicon-sunglasses" aria-hidden="true"></span></h2> High winds and/or inclement weather prevent us from flying. We ask all our guests to contact us in the early afternoon prior to their scheduled flight between <i class="glyphicon glyphicon-time"></i>12:00 noon and <i class="glyphicon glyphicon-time"></i>2:00 p.m. to verify that the forecasted weather
+                conditions will allow their balloon flight<i class="glyphicon glyphicon-plane"></i>. </div>
+
+            <div class="col-sm-3 jumbotron" id="flight">
+                <h2><i class="glyphicon glyphicon-plane"></i> Flight <i class="glyphicon glyphicon-plane"></i></h2> Our actual flight time is approximately <i class="glyphicon glyphicon-time"></i> one to one and a half hours <i class="glyphicon glyphicon-time"></i>averaging closer to one and a half hours and we suggest to allow three to three and a half hours for the entire adventure.
+            </div>
+            <div class="col-sm-3 jumbotron" id="participattion">
+                <h2><i class="glyphicon glyphicon-fire"></i> Participation <i class="glyphicon glyphicon-fire"></i></h2> We encourage all of our guests, if they wish, to participate in both the inflation and deflation of the balloon. We have found it adds greatly to the fun of the entire ballooning experience.
+            </div>
+
+        
     </div>
-    <div class="container" id="gallery">
-        <div class="row">
-            <div class="col-sm-6 col-md-4">
-                <img src="img/balloon-6.jpg" class="rounded float-left" style="width:100%;"></div>
-            <div class="col-sm-6 col-md-4">
-                <img src="img/balloon-5.jpg" class="rounded float-left" style="width:100%;"></div>
-            <div class="col-sm-6 col-md-4">
-                <img src="img/balloon-4.jpg" class="rounded float-left" style="width:100%;"></div>
-            <div class="col-sm-6 col-md-4">
-                <img src="img/balloon-3.jpg" class="rounded float-left" style="width:100%;"></div>
-            <div class="col-sm-6 col-md-4">
-                <img src="img/balloon-2.jpg" class="rounded float-left" style="width:100%;"></div>
-            <div class="col-sm-6 col-md-4">
-                <img src="img/balloon-1.jpg" class="rounded float-left" style="width:100%;"></div>
+    <div  id="gallery">
+
+        <div class="col-sm-6 col-md-4">
+            <img src="img/balloon-6.jpg" class="img-rounded" alt="Cinque Terre" style="width:100%" ></div>
+        <div class="col-sm-6 col-md-4">
+            <img src="img/balloon-5.jpg" class="img-rounded" alt="Cinque Terre" style="width:100%"></div>
+        <div class="col-sm-6 col-md-4">
+            <img src="img/balloon-4.jpg" class="img-rounded" alt="Cinque Terre" style="width:100%"></div>
+        <div class="col-sm-6 col-md-4">
+            <img src="img/balloon-3.jpg" class="img-rounded" alt="Cinque Terre" style="width:100%"></div>
+        <div class="col-sm-6 col-md-4">
+            <img src="img/balloon-2.jpg" class="img-rounded" alt="Cinque Terre" style="width:100%"></div>
+        <div class="col-sm-6 col-md-4">
+            <img src="img/balloon-1.jpg" class="img-rounded" alt="Cinque Terre" style="width:100%"></div>
 
 
-        </div>
-        
-    <div id="testimonial">
-        <h3>Testimonials: Just a few of our happy customers</h3>
-        <div class="col-sm-6 col-md-4 col-lg-2">
-            <blockquote>"Thank you for a wonderful memory. I was smiling the entire time. We shall always cherish that morning!"<footer >Joan H.</footer></blockquote></div>
-            <div class="col-sm-6 col-md-4 col-lg-2">
-            <blockquote class=opposite_color>"I haven't come down to earth since our balloon ride. We are so pleased that we chose SHABR."<footer id="inverse_color">Marsha N.</footer></blockquote></div>
-            <div class="col-sm-6 col-md-4 col-lg-2">
-            <blockquote>"Thanks so much for making our experience so perfect. I definitely want to go back again!<footer>Linda T.</footer></blockquote></div>
-            <div class="col-sm-6 col-md-4 col-lg-2">
-            <blockquote class=opposite_color>"What an experience!! I can't stop talking about it with my family. Thank you for the life-long memory!"<footer id="inverse_color">Tammy P.</footer></blockquote></div>
-            <div class="col-sm-6 col-md-4 col-lg-2">
-            <blockquote>"Thank you so much for the experience. It was delightful - awesome - wonderful - I will never forget my 80th Birthday!"<footer>Ethel E.</footer></blockquote></div>
-            <div class="col-sm-6 col-md-4 col-lg-2">
-            <blockquote class=opposite_color>"What an awesome way to remember my anniversary! I know I will always remember this experience. Thank you again!"<footer id="inverse_color">Mary C.</footer></blockquote></div>
-            
+
+
+        <div id="testimonial">
+            <div class="jumbotron col-sm-12 text-center" id="Testimonial">
+                <h2>Testimonial</h2>
+            </div>
+            <h3>Just a few of our happy customers~ <i class="glyphicon glyphicon-thumbs-up"></i></h3>
+            <div class="col-sm-6 col-md-4">
+                <blockquote>"Thank you for a wonderful memory. I was smiling the entire time. We shall always cherish that morning!"
+                    <footer>Joan H.</footer>
+                </blockquote>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <blockquote class=opposite_color>"I haven't come down to earth since our balloon ride. We are so pleased that we chose SHABR."
+                    <footer id="inverse_color">Marsha N.</footer>
+                </blockquote>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <blockquote>"Thanks so much for making our experience so perfect. I definitely want to go back again!
+                    <footer>Linda T.</footer>
+                </blockquote>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <blockquote class=opposite_color>"What an experience!! I can't stop talking about it with my family. Thank you for the life-long memory!"
+                    <footer id="inverse_color">Tammy P.</footer>
+                </blockquote>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <blockquote>"Thank you so much for the experience. It was delightful - awesome - wonderful - I will never forget my 80th Birthday!"
+                    <footer>Ethel E.</footer>
+                </blockquote>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <blockquote class=opposite_color>"What an awesome way to remember my anniversary! I know I will always remember this experience. Thank you again!"
+                    <footer id="inverse_color">Mary C.</footer>
+                </blockquote>
+            </div>
+
         </div>
     </div>
-    
-    <div class="container-fluid section text-center" id="contact">
-<h1><strong>Contact</strong></h1> We’d love to hear from you
-<br>
-Address
-<br>
-SHABR, Inc.
-<br>
-1234 Shabr Road
-<br>
-Somewhere, OT 80013
-<br>
-Phone(555) 555-1234
-<br>
-Copyright © 2016   |   SHABR
-        
-        
+
+    <div class="container-fluid section text-center well" id="contact">
+        <h1><strong><i class="glyphicon glyphicon-hand-right"></i> Contact Us <i class="glyphicon glyphicon-hand-left"></i></strong></h1> We’d love to hear from you <i class="glyphicon glyphicon-comment"></i>
+        <br> Address
+        <br> SHABR, Inc.
+        <br> 1234 Shabr Road  <i class="glyphicon glyphicon-road"></i>
+        <br> Somewhere, OT 80013
+        <br> <i class="glyphicon glyphicon-earphone"></i> Phone(555) 555-1234 <i class="glyphicon glyphicon-earphone"></i>
+        <br><br>
+        <h3>Copyright © 2016 | SHABR</h3>
+
+
     </div>
 </body>
 </body>

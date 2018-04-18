@@ -2,40 +2,50 @@ body {
 
     background-color: #30ffc0;
 }
-h2{
+
+h2 {
     font-family: Impact;
-    
+
 }
-h3{
+
+h3 {
     font-family: Franklin Gothic Medium;
-    
+
 }
-p{
-font-family: Arial Black;    
-    
+
+p {
+    font-family: Arial Black;
+
 }
+
 @media (min-width: 768px) {}
-h1{
+
+h1 {
     font-size: 80px;
 }
-   h2{
-        font-size: 30px;
-        
-    }
-    h3,p {
-        font-size: 20px;
-    }
+
+h2 {
+    font-size: 30px;
+
+}
+
+h3,
+p {
+    font-size: 20px;
+}
+
 /* medium+ */
 
 @media(min-width:992px) {
     h1 {
         font-size: 150px;
     }
-    h2{
+    h2 {
         font-size: 40px;
     }
-    h3,p{
-        font-size:20px; 
+    h3,
+    p {
+        font-size: 20px;
     }
 }
 
@@ -45,11 +55,12 @@ h1{
     h1 {
         font-size: 200px;
     }
-    h2{
+    h2 {
         font-size: 75px;
     }
-    h3,p{
-        font-size:40px;
+    h3,
+    p {
+        font-size: 40px;
     }
 }
 
@@ -57,25 +68,30 @@ h1{
 .row {
     margin: 30px 0;
 }
-#time{
+
+#time {
     background-color: #c3ff00;
 }
-#weather{
-    background-color:#59ddff;
+
+#weather {
+    background-color: #59ddff;
 }
-#flight{
+
+#flight {
     background-color: #ffbf00;
 }
-#participattion{
-    background-color:#005dff;
+
+#participattion {
+    background-color: #005dff;
 }
-#Testimonial{
+
+#Testimonial {
     background-color: #ff3a3a
 }
 
 
 #home {
-   
+
     display: table;
     width: 100%;
     background: linear-gradient( rgba(0, 200, 300, 0.75), rgba(100, 0, 300, 0.75)), url('img/balloon-4.jpg') no-repeat center;
@@ -91,19 +107,20 @@ h1{
     background-size: cover;
     color: #000000;
 }
-gallery{
-    width:50%;
+
+gallery {
+    width: 50%;
 }
 
 #gallery>div>div {
-   padding: 10px;
+    padding: 10px;
 }
 
 
 #contact {
     display: table;
     width: 100%;
-    background: linear-gradient( rgba(48, 255, 251,0.75), rgba(48, 255, 251,0.75)), url('img/hot-air-balloon-clipart.png') no-repeat center;
+    background: linear-gradient( rgba(48, 255, 251, 0.75), rgba(48, 255, 251, 0.75)), url('img/hot-air-balloon-clipart.png') no-repeat center;
     background-size: cover;
     color: #000000;
 
@@ -111,7 +128,7 @@ gallery{
 
 blockquote {
     background-color: #70A7FE;
-color:#eeff00;
+    color: #eeff00;
 
 
 }
@@ -124,89 +141,3 @@ color:#eeff00;
 blockquote footer {
     color: #000000;
 }
-
-
-
-/*funscreen{*/
-
-/*  background-size: cover;*/
-
-/*}*/
-
-/*.carousel-item {*/
-
-/*  height: 100vh;*/
-
-/*  min-height: 300px;*/
-
-/*  background: no-repeat center center scroll;*/
-
-/*  -webkit-background-size: cover;*/
-
-/*  -moz-background-size: cover;*/
-
-/*  -o-background-size: cover;*/
-
-/*  background-size: cover;*/
-
-/*}*/
-
-/*myCarousel{*/
-
-/*  width:100%;*/
-
-/*}*/
-
-/*html,body{*/
-
-/*  height:100%;*/
-
-/*}*/
-
-/*.carousel,.item,.active{*/
-
-/*  height:100%;*/
-
-/*}*/
-
-/*.carousel-inner{*/
-
-/*  height:100%;*/
-
-/*}*/
-
-/*.carousel,*/
-
-/*.item,*/
-
-/*.active {*/
-
-/*    height: 100%;*/
-
-/*}*/
-
-/*.carousel-inner {*/
-
-/*    height: 100%;*/
-
-/*}*/
-
-/* Background images are set within the HTML using inline CSS, not here */
-
-/*.fullscreen {*/
-
-/*    width: 100%;*/
-
-/*    height: 100%;*/
-
-/*    background-position: center;*/
-
-/*    -webkit-background-size: cover;*/
-
-/*    -moz-background-size: cover;*/
-
-/*    background-size: cover;*/
-
-/*    -o-background-size: cover;*/
-
-/*}*/
